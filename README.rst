@@ -6,6 +6,10 @@ heavily based on the swot ruby gem: https://github.com/leereilly/swot.
 
 Pull requests for missing institutions (see data.py) are welcome.
 
+Available on PyPI:
+
+    pip install schoolbus
+
 Usage
 -----
 
