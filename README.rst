@@ -11,12 +11,12 @@ Usage
 
 .. code:: python
 
-	>>> schoolbus.is_academic('joshma@mit.edu')
+	>>> schoolbus.is_academic('coryli@mit.edu')
 	True
 	>>> schoolbus.is_academic('josh@benchling.com')
 	False
 
-	>>> schoolbus.school_names('joshma@mit.edu')
+	>>> schoolbus.school_names('vineetg@mit.edu')
 	[u'Massachusetts Institute of Technology']
-	>>> schoolbus.school_names('josh@scicu.org')
+	>>> schoolbus.school_names('sajith@scicu.org')
 	[u'Claflin College', u'Allen University', u'Morris College']
