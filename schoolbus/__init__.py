@@ -143,6 +143,17 @@ def school_names(email):
 
     The list is empty if the email is not an academic email or if we don't
     know about it.
+
+    >>> school_names('vineetg@mit.edu')
+    [u'Massachusetts Institute of Technology']
+    >>> school_names('sajith@scicu.org')
+    [u'Claflin College', u'Allen University', u'Morris College']
+    >>> school_names('student@madeupcollege.edu')
+    []
+    >>> school_names('invalidemail')
+    Traceback (most recent call last):
+        ...
+    ValueError: invalidemail is not a valid email
     """
     if '@' not in email:
         raise ValueError('%s is not a valid email' % email)
@@ -152,10 +163,26 @@ def school_names(email):
     return UNIVERSITY_DOMAINS.get(root_domain, [])
 
 def is_academic(email):
-    """Guesses whether the email is academic or not."""
+    """
+    Guesses whether the email is academic or not.
+
+    >>> is_academic('coryli@mit.edu')
+    True
+    >>> is_academic('josh@benchling.com')
+    False
+    >>> is_academic('bademail')
+    Traceback (most recent call last):
+        ...
+    ValueError: bademail is not a valid email
+    """
     if '@' not in email:
         raise ValueError('%s is not a valid email' % email)
     root_domain = _get_root_domain(email)
     if root_domain in ACADEMIC_TLDS:
         return True
     return len(school_names(email)) > 0
+
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
