@@ -131,6 +131,11 @@ BLACKLIST_TLDS = {
 
 __all__ = ('school_names', 'is_academic')
 
+def _get_root_domain(email):
+    _, domain = email.split('@')
+    root_domain = _psl.get_public_suffix(domain)
+    return root_domain
+
 def school_names(email):
     """
     Returns list of schools that the email can correspond to. The list can
@@ -141,8 +146,7 @@ def school_names(email):
     """
     if '@' not in email:
         raise ValueError('%s is not a valid email' % email)
-    _, domain = email.split('@')
-    root_domain = _psl.get_public_suffix(domain)
+    root_domain = _get_root_domain(email)
     if root_domain in BLACKLIST_TLDS:
         return []
     return UNIVERSITY_DOMAINS.get(root_domain, [])
@@ -150,5 +154,8 @@ def school_names(email):
 def is_academic(email):
     """Guesses whether the email is academic or not."""
     if '@' not in email:
-        return False
+        raise ValueError('%s is not a valid email' % email)
+    root_domain = _get_root_domain(email)
+    if root_domain in ACADEMIC_TLDS:
+        return True
     return len(school_names(email)) > 0
