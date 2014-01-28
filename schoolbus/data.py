@@ -3039,6 +3039,7 @@ UNIVERSITY_DOMAINS = {
     'dom.edu': [u'Dominican University'],
     'motech.edu': [u'Missouri Tech'],
     'mit.edu': [u'Massachusetts Institute of Technology'],
+    'harvard.edu': [u'Harvard University'],
     'cwru.edu': [u'Case Western Reserve University'],
     'aut.edu': [u'American University College of Technology'],
     'carroll.edu': [u'Carroll College Helena'],
