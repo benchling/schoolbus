@@ -3401,6 +3401,7 @@ UNIVERSITY_DOMAINS = {
     'regis.edu': [u'Regis University'],
     'univalle.edu': [u'Universidad Privada del Valle'],
     'uillinois.edu': [u'University of Illinois'],
+    'illinois.edu': [u'University of Illinois at Urbana Champaign'],
     'cofc.edu': [u'College of Charleston', u'University of Charleston South Carolina'],
     'txlutheran.edu': [u'Texas Lutheran University'],
     'sjc.edu': [u'St. Joseph College'],
