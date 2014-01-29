@@ -174,11 +174,22 @@ def is_academic(email):
     Traceback (most recent call last):
         ...
     ValueError: bademail is not a valid email
+
+    Some TLDs are assumed to be academic, unless blacklisted.
+    >>> is_academic('student@college.brandnewuniversity.edu')
+    True
+
+    But some are indeed blacklisted.
+    >>> is_academic('student@academia.edu')
+    False
     """
     if '@' not in email:
         raise ValueError('%s is not a valid email' % email)
     root_domain = _get_root_domain(email)
-    if root_domain in ACADEMIC_TLDS:
+    if root_domain in BLACKLIST_TLDS:
+        return False
+    _, tld = root_domain.split('.', 1)
+    if tld in ACADEMIC_TLDS:
         return True
     return len(school_names(email)) > 0
 
