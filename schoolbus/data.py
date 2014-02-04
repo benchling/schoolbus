@@ -4057,6 +4057,7 @@ UNIVERSITY_DOMAINS = {
     'averett.edu': [u'Averett College'],
     'srttu.edu': [u'Shaheed Rajaei Teacher Training University'],
     'nyu.edu': [u'New York University'],
+    'nyumc.org': [u'NYU Langone Medical Center'],
     'bayantech.edu': [u'Bayan College for Science &amp; Technology'],
     'morehouse.edu': [u'Morehouse College'],
     'swbts.edu': [u'Southwestern Baptist Theological Seminary'],
