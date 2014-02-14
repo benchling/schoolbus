@@ -2148,6 +2148,7 @@ UNIVERSITY_DOMAINS = {
     'kardan.edu.af': [u'Kardan University'],
     'ku.edu.af': [u'Kabul University'],
     'auaf.edu.af': [u'American University of Afghanistan'],
+    'niper.ac.in': [u'National Institute of Pharmaceutical Education and Research'],
     'bits-pilani.ac.in': [u'Birla Institute of Technology and Science'],
     'iiita.ac.in': [u'Indian Institute of Technology Allahabad'],
     'iitb.ac.in': [u'Indian Institute of Technology Bombay'],
