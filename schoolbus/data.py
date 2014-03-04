@@ -2114,6 +2114,7 @@ UNIVERSITY_DOMAINS = {
     'newcastle.edu.au': [u'University of Newcastle'],
     'uwa.edu.au': [u'University of Western Australia'],
     'uq.edu.au': [u'University of Queensland'],
+    'uqconnect.edu.au': [u'University of Queensland'],
     'csu.edu.au': [u'Charles Sturt University'],
     'une.edu.au': [u'University of New England'],
     'bond.edu.au': [u'Bond University'],
