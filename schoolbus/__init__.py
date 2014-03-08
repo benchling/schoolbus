@@ -1,5 +1,6 @@
 from publicsuffix import PublicSuffixList
 from schoolbus.data import UNIVERSITY_DOMAINS
+from schoolbus.research_orgs import RESEARCH_ORG_DOMAINS
 
 _psl = PublicSuffixList()
 
@@ -162,7 +163,10 @@ def school_names(email):
     root_domain = _get_root_domain(email)
     if root_domain in BLACKLIST_TLDS:
         return []
-    return UNIVERSITY_DOMAINS.get(root_domain, [])
+    names = UNIVERSITY_DOMAINS.get(root_domain, [])
+    if names:
+        return names
+    return RESEARCH_ORG_DOMAINS.get(root_domain, [])
 
 def is_academic(email):
     """
