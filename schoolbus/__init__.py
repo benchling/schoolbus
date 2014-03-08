@@ -194,7 +194,10 @@ def is_academic(email):
     root_domain = _get_root_domain(email)
     if root_domain in BLACKLIST_TLDS:
         return False
-    _, tld = root_domain.split('.', 1)
+    parts = root_domain.split('.', 1)
+    if len(parts) != 2:
+        return False
+    _, tld = parts
     if tld in ACADEMIC_TLDS:
         return True
     return len(school_names(email)) > 0
