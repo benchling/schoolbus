@@ -135,7 +135,7 @@ BLACKLIST_TLDS = {
 __all__ = ('school_names', 'is_academic')
 
 def _get_root_domain(email):
-    _, domain = email.split('@')
+    _, domain = email.rsplit('@', 1)
     root_domain = _psl.get_public_suffix(domain)
     return root_domain
 
