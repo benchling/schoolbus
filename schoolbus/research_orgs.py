@@ -6,4 +6,5 @@ RESEARCH_ORG_DOMAINS = {
     'embl.de': [u'European Molecular Biology Laboratory'],
     'erasmusmc.nl': [u'Erasmus University Medical Center'],
     'ncbs.res.in': [u'National Centre for Biological Sciences'],
+    'bccrc.ca': [u'BC Cancer Research Centre'],
 }
