@@ -8,6 +8,6 @@ RESEARCH_ORG_DOMAINS = {
     'ncbs.res.in': [u'National Centre for Biological Sciences'],
     'bccrc.ca': [u'BC Cancer Research Centre'],
     'mpimf-heidelberg.mpg.de': [u'Max Planck Institute for Medical Research'],
-    'mpi-muenster.mpg.de': [u'Max Planck Institute for Molecular Biomedicine'],
+    'mpg.de': [u'Max Planck Institute'],
     'dkfz-heidelberg.de': [u'German Cancer Research Center'],
 }
