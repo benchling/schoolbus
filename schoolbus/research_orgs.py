@@ -10,4 +10,5 @@ RESEARCH_ORG_DOMAINS = {
     'mpimf-heidelberg.mpg.de': [u'Max Planck Institute for Medical Research'],
     'mpg.de': [u'Max Planck Institute'],
     'dkfz-heidelberg.de': [u'German Cancer Research Center'],
+    'helmholtz-hzi.de': [u'Helmholtz Centre for Infection Research'],
 }
