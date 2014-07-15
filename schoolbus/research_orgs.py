@@ -11,4 +11,5 @@ RESEARCH_ORG_DOMAINS = {
     'mpg.de': [u'Max Planck Institute'],
     'dkfz-heidelberg.de': [u'German Cancer Research Center'],
     'helmholtz-hzi.de': [u'Helmholtz Centre for Infection Research'],
+    'univ-tlse3.fr': [u'Université Paul Sabatier'],
 }
