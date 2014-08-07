@@ -5079,6 +5079,7 @@ UNIVERSITY_DOMAINS = {
     'mta.ca': [u'Mount Allison University'],
     'ufv.ca': [u'University of the Fraser Valley'],
     'concordia.ca': [u'Concordia University'],
+    'liveconcordia.onmicrosoft.com': [u'Concordia University'],
     'stfx.ca': [u'St. Francis Xavier University'],
     'sait.ca': [u'Southern Alberta Institute of Technology'],
     'usherbrooke.ca': [u'Université de Sherbrooke'],
