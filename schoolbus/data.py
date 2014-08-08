@@ -3270,6 +3270,7 @@ UNIVERSITY_DOMAINS = {
     'emmanuel-college.edu': [u'Emmanuel College Georgia'],
     'hsbc.edu': [u'Hobe Sound Bible College'],
     'utexas.edu': [u'University of Texas at Austin'],
+    'mdanderson.org': [u'University of Texas MD Anderson Cancer Center'],
     'pitzer.edu': [u'Pitzer College'],
     'st-aug.edu': [u'St. Augustine\'s College North Carolina'],
     'viu.edu': [u'Virginia International University'],
