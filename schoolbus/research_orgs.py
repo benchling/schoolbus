@@ -12,4 +12,5 @@ RESEARCH_ORG_DOMAINS = {
     'dkfz-heidelberg.de': [u'German Cancer Research Center'],
     'helmholtz-hzi.de': [u'Helmholtz Centre for Infection Research'],
     'univ-tlse3.fr': [u'Université Paul Sabatier'],
+    'santafe-conicet.gov.ar': [u'Instituto de Agrobiotecnología del Litoral'],
 }
