@@ -125,7 +125,7 @@ ACADEMIC_TLDS = {
     'vic.edu.au': True,
 }
 
-BLACKLIST_TLDS = {
+BLACKLIST_DOMAINS = {
     'america.edu': True,
     'academia.edu': True,
     'si.edu': True,
@@ -137,7 +137,7 @@ __all__ = ('school_names', 'is_academic')
 def _get_domains(email):
     _, domain = email.rsplit('@', 1)
     root_domain = _psl.get_public_suffix(domain)
-    return domain, root_domain
+    return root_domain, domain
 
 def school_names(email):
     """
@@ -161,7 +161,7 @@ def school_names(email):
     if '@' not in email:
         raise ValueError('%s is not a valid email' % email)
     for domain in _get_domains(email):
-        if domain in BLACKLIST_TLDS:
+        if domain in BLACKLIST_DOMAINS:
             return []
         names = UNIVERSITY_DOMAINS.get(domain, [])
         if names:
@@ -194,8 +194,8 @@ def is_academic(email):
     """
     if '@' not in email:
         raise ValueError('%s is not a valid email' % email)
-    _, root_domain = _get_domains(email)
-    if root_domain in BLACKLIST_TLDS:
+    root_domain, domain = _get_domains(email)
+    if root_domain in BLACKLIST_DOMAINS or domain in BLACKLIST_DOMAINS:
         return False
     parts = root_domain.split('.', 1)
     if len(parts) != 2:
