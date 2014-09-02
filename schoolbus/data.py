@@ -2682,6 +2682,7 @@ UNIVERSITY_DOMAINS = {
     'tui.edu': [u'The Union Institute'],
     'trincoll.edu': [u'Trinity College Connecticut'],
     'tufts.edu': [u'Tufts University'],
+    'tuftsmedicalcenter.org': [u'Tufts Medical Center'],
     'plu.edu': [u'Pacific Lutheran University'],
     'holycross.edu': [u'College of the Holy Cross'],
     'limcollege.edu': [u'Laboratory Institute of Merchandising'],
