@@ -5793,6 +5793,7 @@ UNIVERSITY_DOMAINS = {
     'fh-ulm.de': [u'Fachhochschule Ulm, Hochschule für Technik'],
     'privatfh-da.de': [u'Private FernFachhochschule Darmstadt'],
     'tum.de': [u'Technical University of Munich'],
+    'mytum.de': [u'Technical University of Munich'],
     'fh-kiel.de': [u'Fachhochschule Kiel'],
     'fh-weingarten.de': [u'Fachhochschule Ravensburg-Weingarten'],
     'uni-saarland.de': [u'Universität des Saarlandes'],
