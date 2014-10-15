@@ -912,6 +912,7 @@ UNIVERSITY_DOMAINS = {
     'tmmu.edu.cn': [u'3rd Military Medical University'],
     'cdut.edu.cn': [u'Chengdu University of Technology'],
     'usst.edu.cn': [u'Shanghai University of Science and Technology'],
+    'shanghaitech.edu.cn': [u'ShanghaiTech University'],
     'nxu.edu.cn': [u'Ningxia University'],
     'gdut.edu.cn': [u'Guangdong University of Technology'],
     'pzhu.edu.cn': [u'Panzhihua University'],
