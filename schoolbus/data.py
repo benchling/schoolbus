@@ -5812,6 +5812,7 @@ UNIVERSITY_DOMAINS = {
     'fh-mainz.de': [u'Fachhochschule Mainz'],
     'uni-magdeburg.de': [u'Otto-von-Guericke Universität Magdeburg'],
     'uni-freiburg.de': [u'Albert-Ludwigs-Universität Freiburg'],
+    'uniklinik-freiburg.de': [u'Universitätsklinikum Freiburg'],
     'uni-karlsruhe.de': [u'Universität Fridericana Karlsruhe (Technische Hochschule)'],
     'fom.de': [u'Fachhochschule für Oekonomie und Management (FOM)'],
     'fh-nuernberg.de': [u'Georg-Simon-Ohm-Fachhochschule Nürnberg'],
