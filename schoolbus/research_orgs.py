@@ -14,4 +14,7 @@ RESEARCH_ORG_DOMAINS = {
     'helmholtz-hzi.de': [u'Helmholtz Centre for Infection Research'],
     'univ-tlse3.fr': [u'Université Paul Sabatier'],
     'santafe-conicet.gov.ar': [u'Instituto de Agrobiotecnología del Litoral'],
+    'broadinstitute.org': [u'Broad Institute of MIT and Harvard'],
+    'sanger.ac.uk': [u'Wellcome Trust Sanger Institute'],
+    'hutton.ac.uk': [u'James Hutton Institute'],
 }
