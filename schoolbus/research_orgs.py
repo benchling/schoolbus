@@ -17,4 +17,5 @@ RESEARCH_ORG_DOMAINS = {
     'broadinstitute.org': [u'Broad Institute of MIT and Harvard'],
     'sanger.ac.uk': [u'Wellcome Trust Sanger Institute'],
     'hutton.ac.uk': [u'James Hutton Institute'],
+    'hubrecht.eu': [u'Hubrecht Institute'],
 }
