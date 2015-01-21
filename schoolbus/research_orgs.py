@@ -12,6 +12,7 @@ RESEARCH_ORG_DOMAINS = {
     'dkfz-heidelberg.de': [u'German Cancer Research Center'],
     'dkfz.de': [u'German Cancer Research Center'],
     'helmholtz-hzi.de': [u'Helmholtz Centre for Infection Research'],
+    'twincore.de': [u'TWINCORE'],
     'univ-tlse3.fr': [u'Université Paul Sabatier'],
     'santafe-conicet.gov.ar': [u'Instituto de Agrobiotecnología del Litoral'],
     'broadinstitute.org': [u'Broad Institute of MIT and Harvard'],
