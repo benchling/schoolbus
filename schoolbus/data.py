@@ -7708,4 +7708,5 @@ UNIVERSITY_DOMAINS = {
     'awf.gda.pl': [u'Physical Education Academy Jedrzej Sniadecki in Gdansk'],
     'amuz.gda.pl': [u'Music Academy Stanislaw Moniuszko in Gdansk'],
     'univ.gda.pl': [u'University of Gdansk'],
+    'coh.org': [u'Beckman Institute at City of Hope'],
 }
