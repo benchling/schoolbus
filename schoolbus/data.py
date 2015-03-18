@@ -4877,6 +4877,7 @@ UNIVERSITY_DOMAINS = {
     'hieb.edu.ly': [u'Higher Institute of Electronics Bani-Walid'],
     'elmergib.edu.ly': [u'Elmergib University'],
     'unizh.ch': [u'University of Zürich'],
+    'usz.ch': [u'University Hospital Zürich'],
     'zhaw.ch': [u'Zurich University of Applied Sciences'],
     'gbs-ge.ch': [u'Geneva Business School'],
     'phzh.ch': [u'Pädagogische Hochschule Zürich (Zurich School of Education)'],
@@ -5594,6 +5595,7 @@ UNIVERSITY_DOMAINS = {
     'tu-bs.de': [u'Technische Universität Carolo-Wilhelmina Braunschweig'],
     'kh-berlin.de': [u'Kunsthochschule Berlin-Weissensee, Hochschule für Gestaltung'],
     'uni-frankfurt.de': [u'Philosophisch-Theologische Hochschule Sankt Georgen', u'Johann Wolfgang Goethe Universität Frankfurt am Main'],
+    'kgu.de': [u'University Hospital Frankfurt'],
     'fh-pforzheim.de': [u'Fachhochschule Pforzheim, Hochschule für Gestaltung, Technik und Wirtschaft'],
     'h-da.de': [u'Hochschule Darmstadt University of Applied Sciences'],
     'fh-schwaebischhall.de': [u'Fachhochschule Schwäbisch Hall, Hochschule für Gestaltung'],
@@ -7713,5 +7715,4 @@ UNIVERSITY_DOMAINS = {
     'awf.gda.pl': [u'Physical Education Academy Jedrzej Sniadecki in Gdansk'],
     'amuz.gda.pl': [u'Music Academy Stanislaw Moniuszko in Gdansk'],
     'univ.gda.pl': [u'University of Gdansk'],
-    'coh.org': [u'Beckman Institute at City of Hope'],
 }
