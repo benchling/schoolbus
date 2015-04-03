@@ -10,6 +10,8 @@ RESEARCH_ORG_DOMAINS = {
     'ncbs.res.in': [u'National Centre for Biological Sciences'],
     'bccrc.ca': [u'BC Cancer Research Centre'],
     'bcgsc.ca': [u'BC Genome Sciences Centre'],
+    'prostatecentre.com': [u'Vancouver Prostate Centre'],
+    'educbe.ca': [u'Calgary Board of Education'],
     'mpimf-heidelberg.mpg.de': [u'Max Planck Institute for Medical Research'],
     'mpg.de': [u'Max Planck Institute'],
     'dkfz-heidelberg.de': [u'German Cancer Research Center'],
@@ -23,4 +25,6 @@ RESEARCH_ORG_DOMAINS = {
     'sanger.ac.uk': [u'Wellcome Trust Sanger Institute'],
     'hutton.ac.uk': [u'James Hutton Institute'],
     'hubrecht.eu': [u'Hubrecht Institute'],
+    'mcri.edu.au': [u'Murdoch Childrens Research Institute'],
+    'igc.gulbenkian.pt': [u'Instituto Gulbenkian de Ciência'],
 }
