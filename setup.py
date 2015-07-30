@@ -6,11 +6,11 @@ with open('README.rst') as f:
     long_description = f.read()
 
 setup(name='schoolbus',
-	  version='0.4.16',
+	  version='0.5.0',
 	  description='schoolbus is a library to guess whether an email is from an academic institution.',
 	  long_description=long_description,
 	  author='Joshua Ma',
 	  author_email='josh@benchling.com',
 	  url='https://github.com/benchling/schoolbus',
 	  packages=['schoolbus'],
-	  install_requires=['publicsuffix >= 1.0.4'])
+	  install_requires=['publicsuffix >= 1.1.0'])
