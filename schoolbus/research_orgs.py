@@ -27,4 +27,5 @@ RESEARCH_ORG_DOMAINS = {
     'hubrecht.eu': [u'Hubrecht Institute'],
     'mcri.edu.au': [u'Murdoch Childrens Research Institute'],
     'igc.gulbenkian.pt': [u'Instituto Gulbenkian de Ciência'],
+    'ufl.edu': [u'University of Florida']
 }
