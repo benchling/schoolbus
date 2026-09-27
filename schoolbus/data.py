@@ -2181,6 +2181,7 @@ UNIVERSITY_DOMAINS = {
     'iith.ac.in': [u'Indian Institute of Technology Hyderabad'],
     'becs.ac.in': [u'Bengal Engineering and Science University'],
     'du.ac.in': [u'University of Delhi'],
+    'oriental.ac.in': [u'Oriental Group of Institutes'],
     'ac.sy': [u'Arab European University'],
     'iap.li': [u'Internationle Akademie für Philosophie'],
     'uni.li': [u'Universität Liechtenstein'],
